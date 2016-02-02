@@ -1,5 +1,9 @@
 box: alpine
 build:
+    steps:
+        - script:
+            name: whitelist
+            code: cat whitelist
 
 deploy:
     steps:
