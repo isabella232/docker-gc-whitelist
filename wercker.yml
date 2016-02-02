@@ -1,0 +1,9 @@
+deploy:
+    box: alpine
+    steps:
+        - mhook-upload:
+            bucket: wercker-development
+            use-latest: true
+            key-id: $AWS_ACCESS_KEY_ID
+            key-secret: $AWS_SECRET_ACCESS_KEY
+            source: $WERCKER_ROOT/whitelist
