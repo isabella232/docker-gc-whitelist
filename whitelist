@@ -1,22 +1,22 @@
-elasticsearch:
-golang:
-iojs:
-java:
-maven:
-mongo:
-mysql:
-node:
-nodesource/node:
-nodesource/trusty:
-php:
-postgres:
-python:
-rabbitmq:
-rails:
-redis:
-rethinkdb:
-ruby:
-ubuntu:
-centos:
-debian:
-alpine:
+elasticsearch:[^ ]*
+golang:[^ ]*
+iojs:[^ ]*
+java:[^ ]*
+maven:[^ ]*
+mongo:[^ ]*
+mysql:[^ ]*
+node:[^ ]*
+nodesource/node:[^ ]*
+nodesource/trusty:[^ ]*
+php:[^ ]*
+postgres:[^ ]*
+python:[^ ]*
+rabbitmq:[^ ]*
+rails:[^ ]*
+redis:[^ ]*
+rethinkdb:[^ ]*
+ruby:[^ ]*
+ubuntu:[^ ]*
+centos:[^ ]*
+debian:[^ ]*
+alpine:[^ ]*
