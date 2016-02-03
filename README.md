@@ -1,5 +1,7 @@
 # docker-gc-whitelist
 
+[![wercker status](https://app.wercker.com/status/7f0335cb65caf7174e744605d960bd54/s/master "wercker status")](https://app.wercker.com/project/bykey/7f0335cb65caf7174e744605d960bd54)
+
 List of docker images we whitelist from the docker-gc script.
 Images listed here will stay cached on the machine they're downloaded on for
 longer.
