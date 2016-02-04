@@ -20,3 +20,4 @@ ubuntu:[^ ]*
 centos:[^ ]*
 debian:[^ ]*
 alpine:[^ ]*
+mwhooker/journal2gelf:latest
