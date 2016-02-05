@@ -21,3 +21,5 @@ centos:[^ ]*
 debian:[^ ]*
 alpine:[^ ]*
 mwhooker/journal2gelf:latest
+quay.io/wercker[^ ]*
+wercker/[^ ]*
