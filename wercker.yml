@@ -12,3 +12,9 @@ deploy:
             key-id: $AWS_ACCESS_KEY_ID
             key-secret: $AWS_SECRET_ACCESS_KEY
             source: $WERCKER_SOURCE_DIR/whitelist
+        - mhook-upload:
+            bucket: wercker-production
+            use-latest: true
+            key-id: $AWS_ACCESS_KEY_ID
+            key-secret: $AWS_SECRET_ACCESS_KEY
+            source: $WERCKER_SOURCE_DIR/whitelist
